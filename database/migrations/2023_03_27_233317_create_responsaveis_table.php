@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('responsaveis', function (Blueprint $table) {
             $table->id();
+            $table->string('email');
+            $table->string('senha');
             $table->timestamps();
         });
     }

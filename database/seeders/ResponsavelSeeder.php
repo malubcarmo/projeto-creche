@@ -13,6 +13,9 @@ class ResponsavelSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        DB::table('responsaveis')->insert([
+            'email' => 'aleolhaaqui@gmail.com',
+            'senha' => 'banana'
+        ]);
     }
 }

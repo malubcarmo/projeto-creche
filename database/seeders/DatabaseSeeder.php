@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             AlunoSeeder::class,
             ResponsavelSeeder::class,
+            UserSeeder::class,
         ]);
     }
 }

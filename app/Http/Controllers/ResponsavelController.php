@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Responsavel;
 
 class ResponsavelController extends Controller
 {
@@ -11,7 +12,8 @@ class ResponsavelController extends Controller
      */
     public function index()
     {
-        //
+        $responsavel = Responsavel::get();
+        return view('responsavel.index',['responsavel'=>$responsavel]);
     }
 
     /**
