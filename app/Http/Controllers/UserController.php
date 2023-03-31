@@ -3,17 +3,18 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Administrador;
+use App\Models\User;
 
-class AdministradorController extends Controller
+class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $administrador = Administrador::get();
-        return view('administrador.index',['administrador'=>$administrador]);
+        $user = User::get();
+        return view('user.index',['user' => $user]);
+
     }
 
     /**

@@ -3,16 +3,16 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AlunoController;
 use App\Http\Controllers\ResponsavelController;
-use App\Http\Controllers\AdministradorController;
+use App\Http\Controllers\UserController;
 
 
 //---------------------------------Aluno---------------------------------//
 
 Route::get('/aluno', [AlunoController::class, 'index'])->name('aluno.index'); 
 
-//---------------------------------Admnistrador---------------------------------//
+//---------------------------------Usurário---------------------------------//
 
-Route::get('/administrador', [AdministradorController::class, 'index'])->name('administrador.index');
+Route::get('/user', [UserController::class, 'index'])->name('user.index');
 
 //---------------------------------Responsável---------------------------------//
 
