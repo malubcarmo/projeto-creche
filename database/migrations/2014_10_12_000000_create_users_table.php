@@ -18,16 +18,20 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
-            $table->string('profile');
+            $table->string('profile')->default('responsavel');
             $table->timestamps();
+
         });
+
+
     }
 
     /**
      * Reverse the migrations.
      */
     public function down(): void
-    {
+    {   
+        //schena::table('users')
         Schema::dropIfExists('users');
     }
 };

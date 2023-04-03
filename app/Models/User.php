@@ -24,6 +24,11 @@ class User extends Authenticatable
         'profile'
     ];
 
+    public function adminlte_image()
+    {
+        return 'https://picsum.photos/300/300';
+    }
+
     /**
      * The attributes that should be hidden for serialization.
      *
