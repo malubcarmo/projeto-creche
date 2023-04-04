@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AlunoController;
 use App\Http\Controllers\ResponsavelController;
 use App\Http\Controllers\UserController;
-use App\Http\Controllers\AdministratorController;
+use App\Http\Controllers\AdministradorController;
 
 
 
