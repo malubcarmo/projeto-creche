@@ -61,7 +61,7 @@ h5{
     border: 1px solid #0086CD;
     margin-bottom: 10px}
 
-    input[type="email"], input[type="password"] {
+    input[type="email"]{
       color: #000000;
       background-color: #A7DAF4;
       width: 20rem;
@@ -71,6 +71,22 @@ h5{
       margin-bottom: 5px;
       border-radius: 12px;
       text-align:left;
+      background-image:url(../imagens/usuario.png);
+      background-repeat:no-repeat;
+    }
+
+    input[type="password"]{
+        color: #000000;
+        background-color: #A7DAF4;
+        width: 20rem;
+        height: 4rem;
+        border: 1px solid #A7DAF4;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        border-radius: 12px;
+        text-align:left;
+        background-image:url(../imagens/chave.png);
+        background-repeat:no-repeat; 
     }
 
     input[type="email"]::placeholder, input[type="password"]::placeholder {
