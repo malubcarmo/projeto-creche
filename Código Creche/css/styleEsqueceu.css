@@ -1,5 +1,6 @@
 body * {
     overflow: auto;
+    white-space: nowrap;
   }
   
   .img{
@@ -24,18 +25,20 @@ body * {
   }
   
   .container {
-      padding-top: 3rem;
-      align-items: center;
-      overflow: hidden; /* Para evitar que a imagem vaze para fora da caixa */
-      width: 30%;
-      margin-left: 500px;
-      margin-right: auto;
-    }
+    white-space: nowrap;
+    margin-top: 10rem;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Para evitar que a imagem vaze para fora da caixa */
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
   
     .path{
       width: 10rem;
       position: absolute;
-      bottom: 10;
+      bottom: 0px;
       left: 50%;
       transform: translateX(-50%);
     }
@@ -45,7 +48,8 @@ body * {
     }
 
   #form_1{
-    margin-left: 450px;
+    margin-left: auto;
+    margin-right: auto;
     width: 25rem;
     border-radius: 12px;
     display: flex;

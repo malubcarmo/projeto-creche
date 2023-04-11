@@ -1,11 +1,15 @@
 body * {
   overflow: auto;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
 }
 
 .img{
-    width: 5rem;
-    float: left; /* Define a imagem para flutuar à esquerda */
-    padding-bottom: 3rem
+  width: 5rem;
+  float: left; /* Define a imagem para flutuar à esquerda */
+  padding-bottom: 3rem;
+
 }
 
 h5{
@@ -15,12 +19,14 @@ h5{
 }
 
 .container {
-  padding-top: 3rem;
+    white-space: nowrap;
+    margin-top: 10rem;
     align-items: center;
+    justify-content: center;
     overflow: hidden; /* Para evitar que a imagem vaze para fora da caixa */
-    width: 30%;
-    margin-left: 500px;
+    width: 300px;
     margin-right: auto;
+    margin-left: auto;
   }
 
   .esqueceu{
@@ -74,7 +80,7 @@ h5{
   .path{
     width: 10rem;
     position: absolute;
-    bottom: 10;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
   }

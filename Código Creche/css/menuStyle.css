@@ -5,13 +5,18 @@
     height: 100vh;
 }
 
+p{
+  font-family: arial;
+}
+
     .container {
     background-color:#F5F5F5;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 300px;
     height: 50px;
     margin-top: 30px;
+    white-space: nowrap;
 }
 
   #img-1 {
@@ -29,7 +34,7 @@
   }
 
   #img-3 {
-    margin-left: 10px;
+    margin-left: auto;
     margin-right: 20px;
     margin-top: 10px;
     margin-right: 20px;
@@ -38,16 +43,16 @@
     object-fit: cover;
 }
 
+.texto{
+  margin-top: 15px;
+  padding-right:auto;
+}
+
   h5 {
   font-family: arial;
   margin: 0;
   font-size: 16px;
   font-weight: bold;
-}
-
-.texto{
-    margin-top: 15px;
-    margin-left:980px;
 }
 
 .carousel {
@@ -91,6 +96,7 @@
     height: auto;
     display: block;
     margin: 0 auto;
+    white-space: nowrap;
   }
   
   .carousel-caption {
@@ -149,6 +155,7 @@
   }
   
   .image-title p {
+    white-space: nowrap;
     margin-left: 20px;
     order: 2; /* define a ordem do título para ser exibido depois da imagem */
   }
